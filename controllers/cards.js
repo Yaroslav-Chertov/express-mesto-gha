@@ -70,7 +70,7 @@ const deleteCard = (req, res, next) => {
       if (err instanceof mongoose.Error.CastError) {
         return next(new BadRequest('Карточка с указанным _id не найдена.'));
       }
-      if (err instanceof mongoose.Error.DocumentNotFound) {
+      if (err instanceof mongoose.Error.DocumentNotFoundError) {
         return next(new NotFound('Несуществующий _id карточки.'));
       }
       return next(err);
