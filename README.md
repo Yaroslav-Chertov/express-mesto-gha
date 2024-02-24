@@ -3,8 +3,6 @@
 # Проект Mesto фронтенд + бэкенд
 [Ссылка на репозиторий](https://github.com/Yaroslav-Chertov/express-mesto-gha)
 
-## Создана в рамках обучения в [Яндекс.Практикум](https://praktikum.yandex.ru/) на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/)
-
 ## Описание и функциональность
 
 Создание сервера для проекта Mesto.
